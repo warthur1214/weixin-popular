@@ -1,8 +1,8 @@
 package weixin.popular.bean.customservice;
 
-import java.util.List;
-
 import weixin.popular.bean.BaseResult;
+
+import java.util.List;
 
 /**
  * 客服基本信息
@@ -19,7 +19,7 @@ public class KFAccount extends BaseResult {
 		this.kf_list = kf_list;
 	}
 
-	public class KF_List {
+	public static class KF_List {
 		private String kf_account; // 完整客服账号，格式为：账号前缀@公众号微信号
 		private String kf_headimgurl; // 客服头像
 		private String kf_id; // 客服工号
